@@ -9,6 +9,9 @@ This is a WiP repository.  It has small applications & tests that either came fr
 ### FindAllValuesInOneArrayThatAreNotInTheOther
 Find all values in one array which are not present in another
 
+### FindSmallestIntegerTheDoesNotOccur
+(TODO) Given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
+
 ### StringHasAllOfTheLettersInTheAlphabet
 Test whether a string to see if it contains all 26 letters in the alphabet
 
