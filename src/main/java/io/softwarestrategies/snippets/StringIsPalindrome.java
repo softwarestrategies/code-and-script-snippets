@@ -9,16 +9,16 @@ public class StringIsPalindrome {
         StringIsPalindrome app = new StringIsPalindrome();
 
         // Test True condition
-        boolean result = app.isPalindrome("abcba");
-        if (result != true) {
+        if (!app.isPalindrome("abcba")) {
             throw new RuntimeException("Result should have been true");
         }
 
         // Test False condition
-        result = app.isPalindrome("abcde");
-        if (result != false) {
+        if (app.isPalindrome("abcde")) {
             throw new RuntimeException("Result should have been false");
         }
+
+        System.out.println("Success!!!");
     }
 
     public boolean isPalindrome(String word) {
