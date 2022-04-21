@@ -28,19 +28,18 @@ public class StringHasAllOfTheLettersInTheAlphabet {
             "Just a final sentence to test"
     );
 
-
     public static void main(String[] args) {
         StringHasAllOfTheLettersInTheAlphabet app = new StringHasAllOfTheLettersInTheAlphabet();
 
         // Test True condition
         boolean result = app.sentenceHasAllLetters("There should be a fix way to visit the Santa Cruz zoo just in time for quick viewing of the baboons and koalas and pandas");
-        if (result == false) {
+        if (result != true) {
             throw new RuntimeException("Result should have been true");
         }
 
         // Test False condition
         result = app.sentenceHasAllLetters("Here is a dummy sentence.  It is very long and definitely doesn't have the right stuff and thus can be used to test failure even when long enough");
-        if (result == true) {
+        if (result != false) {
             throw new RuntimeException("Result should have been false");
         }
     }
