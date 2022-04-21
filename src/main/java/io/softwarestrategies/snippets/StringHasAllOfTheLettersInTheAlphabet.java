@@ -22,13 +22,13 @@ import java.util.Set;
  */
 public class StringHasAllOfTheLettersInTheAlphabet {
 
-    private final static List<String> sentences = Arrays.asList(
-            "Here is a dummy sentence.  It is very long and definitely doesn't have the right stuff and thus can be used to test failure even when long enough",
-            "There should be a fix way to visit the Santa Cruz zoo just in time for quick viewing of the baboons and koalas and pandas",
-            "Just a final sentence to test"
-    );
-
     public static void main(String[] args) {
+        List<String> sentences = Arrays.asList(
+                "Here is a dummy sentence.  It is very long and definitely doesn't have the right stuff and thus can be used to test failure even when long enough",
+                "There should be a fix way to visit the Santa Cruz zoo just in time for quick viewing of the baboons and koalas and pandas",
+                "Just a final sentence to test"
+        );
+
         StringHasAllOfTheLettersInTheAlphabet app = new StringHasAllOfTheLettersInTheAlphabet();
 
         // Test True condition
