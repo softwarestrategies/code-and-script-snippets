@@ -1,3 +1,7 @@
+-- This was an interview question. This required using "With"
+-- Write a quesry to find the department name that has the highest average salary. Print the name of the department and
+-- its average salary. And if there's more than one department with the same highest salary, then show however many.
+
 CREATE TABLE department (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100)
