@@ -1,5 +1,3 @@
-package io.softwarestrategies.snippets;
-
 import java.util.Stack;
 
 /**

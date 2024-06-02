@@ -1,5 +1,3 @@
-package io.softwarestrategies.snippets;
-
 /**
  * Find all values in one array which are not present in another
  *

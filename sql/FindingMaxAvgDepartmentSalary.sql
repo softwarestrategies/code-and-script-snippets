@@ -40,3 +40,11 @@ WITH
 SELECT average_salaries.department_name, max_salary_avg.value
 FROM average_salaries, max_salary_avg
 WHERE average_salaries.avg_salary = max_salary_avg.value;
+
+
+-- The Answer
+--
+-- department_name |  value
+-----------------+----------
+-- Facility Mgmt   | 50555.23
+-- Engineering     | 50555.23

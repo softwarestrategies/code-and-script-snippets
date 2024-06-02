@@ -1,5 +1,3 @@
-package io.softwarestrategies.snippets;
-
 /**
  * Write a function:
  *

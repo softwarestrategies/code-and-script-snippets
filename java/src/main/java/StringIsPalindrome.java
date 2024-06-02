@@ -1,5 +1,3 @@
-package io.softwarestrategies.snippets;
-
 /**
  * Test whether a string is a palindrome or not
  */
