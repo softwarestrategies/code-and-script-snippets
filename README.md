@@ -1,10 +1,18 @@
-# Java Code Snippets
+# Snippets
 
 ## About
 
 This is a WiP repository.  It has small applications & tests that either came from programming interview challenges or I have done just for fun.
 
-## Snippets
+## SQL
+
+### FindingMaxAvgDepartmentSalary  
+
+This was an interview question.  This required using "With"
+
+Write a quesry to find the department name that has the highest average salary. Print the name of the department and its average salary.  And if there's more than one department with the same highest salary, then show however many.
+
+## Java
 
 ### FindAllValuesInOneArrayThatAreNotInTheOther
 Find all values in one array which are not present in another
