@@ -41,6 +41,17 @@ SELECT average_salaries.department_name, max_salary_avg.value
 FROM average_salaries, max_salary_avg
 WHERE average_salaries.avg_salary = max_salary_avg.value;
 
+-- OR MAYBE BETTER YET:
+
+WITH
+    average_salaries AS (
+        SELECT department.name department_name, AVG(manager.salary) avg_salary
+        FROM manager LEFT JOIN department ON manager.department_id=department.id
+        GROUP BY department.id
+    )
+SELECT average_salaries.department_name, average_salaries.avg_salary
+FROM average_salaries
+WHERE average_salaries.avg_salary = (SELECT MAX(avg_salary) FROM average_salaries);
 
 -- The Answer
 --
